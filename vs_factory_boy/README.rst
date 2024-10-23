@@ -24,3 +24,10 @@ Usage
 .. code-block:: sh
 
     python manage.py run_django_auth_user_minimal_benchmark
+
+Results
+-------
+Generation of 100 (Django) ``User`` records using identical factories:
+
+- `fake.py`_: 11.699 seconds
+- `factory_boy`_: 12.062 seconds
