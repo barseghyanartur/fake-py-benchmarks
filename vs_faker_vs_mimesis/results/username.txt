@@ -1,0 +1,376 @@
+$ python benchmark.py
+[Mimesis] 9,985 of 10,000 (99.85%) are unique
+********************
+Generating using Mimesis:
+         378908 function calls in 0.121 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    0.121    0.121 <string>:1(<listcomp>)
+        1    0.000    0.000    0.121    0.121 <string>:1(<module>)
+    10000    0.031    0.000    0.119    0.000 person.py:179(username)
+    40000    0.006    0.000    0.006    0.000 person.py:216(<genexpr>)
+    40000    0.021    0.000    0.029    0.000 random.py:239(_randbelow_with_getrandbits)
+    10000    0.009    0.000    0.018    0.000 random.py:292(randrange)
+    10000    0.003    0.000    0.022    0.000 random.py:366(randint)
+    30000    0.013    0.000    0.038    0.000 random.py:375(choice)
+    10000    0.004    0.000    0.016    0.000 re.py:232(findall)
+    10000    0.004    0.000    0.006    0.000 re.py:288(_compile)
+    30000    0.002    0.000    0.002    0.000 {built-in method _operator.index}
+    10000    0.004    0.000    0.009    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.121    0.121 {built-in method builtins.exec}
+    10000    0.002    0.000    0.002    0.000 {built-in method builtins.isinstance}
+    40000    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+    40000    0.003    0.000    0.003    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    10000    0.006    0.000    0.006    0.000 {method 'findall' of 're.Pattern' objects}
+    68904    0.005    0.000    0.005    0.000 {method 'getrandbits' of '_random.Random' objects}
+    10000    0.001    0.000    0.001    0.000 {method 'lower' of 'str' objects}
+
+
+********************
+[Faker] 9,433 of 10,000 (94.33%) are unique
+********************
+Generating using Faker:
+         994544 function calls in 1.250 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.013    0.013    1.250    1.250 <string>:1(<listcomp>)
+        1    0.000    0.000    1.250    1.250 <string>:1(<module>)
+     7501    0.003    0.000    0.362    0.000 __init__.py:208(first_name)
+     7509    0.003    0.000    0.509    0.000 __init__.py:211(last_name)
+    10000    0.006    0.000    0.039    0.000 __init__.py:220(_to_ascii)
+    10000    0.018    0.000    1.153    0.000 __init__.py:281(user_name)
+     4982    0.003    0.000    0.018    0.000 __init__.py:320(random_digit)
+    10000    0.026    0.000    0.033    0.000 __init__.py:4(unidecode)
+    27509    0.496    0.000    0.908    0.000 __init__.py:412(random_elements)
+    27509    0.025    0.000    0.934    0.000 __init__.py:535(random_element)
+    10000    0.017    0.000    0.052    0.000 __init__.py:607(numerify)
+     4982    0.003    0.000    0.021    0.000 __init__.py:626(<lambda>)
+    10000    0.004    0.000    0.024    0.000 __init__.py:633(lexify)
+     2499    0.001    0.000    0.016    0.000 __init__.py:642(<lambda>)
+    10000    0.009    0.000    0.086    0.000 __init__.py:644(bothify)
+    10000    0.009    0.000    1.201    0.000 decorators.py:26(wrapper)
+    27509    0.103    0.000    0.395    0.000 distribution.py:57(choices_distribution)
+    10000    0.005    0.000    0.954    0.000 generator.py:161(parse)
+    15010    0.022    0.000    0.927    0.000 generator.py:177(__format_token)
+    32491    0.006    0.000    0.006    0.000 generator.py:60(random)
+    15010    0.011    0.000    0.893    0.000 generator.py:84(format)
+    15010    0.005    0.000    0.011    0.000 generator.py:90(get_formatter)
+    30000    0.021    0.000    0.021    0.000 proxy.py:107(__getattribute__)
+    10000    0.011    0.000    0.021    0.000 proxy.py:122(__getattr__)
+    17481    0.015    0.000    0.020    0.000 random.py:239(_randbelow_with_getrandbits)
+     4982    0.006    0.000    0.013    0.000 random.py:292(randrange)
+     4982    0.002    0.000    0.015    0.000 random.py:366(randint)
+    12499    0.007    0.000    0.024    0.000 random.py:375(choice)
+    15010    0.234    0.000    0.259    0.000 random.py:506(choices)
+    15010    0.011    0.000    0.020    0.000 random.py:540(<listcomp>)
+    10000    0.016    0.000    0.039    0.000 text.py:11(slugify)
+    15010    0.006    0.000    0.006    0.000 {built-in method _bisect.bisect_right}
+    14946    0.001    0.000    0.001    0.000 {built-in method _operator.index}
+        1    0.000    0.000    1.250    1.250 {built-in method builtins.exec}
+    25010    0.009    0.000    0.009    0.000 {built-in method builtins.getattr}
+    42519    0.007    0.000    0.007    0.000 {built-in method builtins.hasattr}
+    70028    0.009    0.000    0.009    0.000 {built-in method builtins.isinstance}
+    82539    0.010    0.000    0.010    0.000 {built-in method builtins.len}
+   103148    0.007    0.000    0.007    0.000 {built-in method builtins.ord}
+    15010    0.002    0.000    0.002    0.000 {built-in method math.isfinite}
+    10000    0.003    0.000    0.003    0.000 {built-in method unicodedata.normalize}
+    17481    0.002    0.000    0.002    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    31324    0.003    0.000    0.003    0.000 {method 'getrandbits' of '_random.Random' objects}
+    15010    0.003    0.000    0.003    0.000 {method 'groups' of 're.Match' objects}
+    15010    0.009    0.000    0.009    0.000 {method 'join' of 'str' objects}
+    20000    0.003    0.000    0.003    0.000 {method 'lower' of 'str' objects}
+    15010    0.002    0.000    0.002    0.000 {method 'random' of '_random.Random' objects}
+    10000    0.001    0.000    0.001    0.000 {method 'strip' of 'str' objects}
+    90000    0.058    0.000    1.022    0.000 {method 'sub' of 're.Pattern' objects}
+    15010    0.002    0.000    0.002    0.000 {method 'values' of 'collections.OrderedDict' objects}
+
+
+********************
+[fake.py] 10,000 of 10,000 (100.0%) are unique
+********************
+Generating using fake.py:
+         753458 function calls in 0.193 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005    0.193    0.193 <string>:1(<listcomp>)
+        1    0.000    0.000    0.193    0.193 <string>:1(<module>)
+    50000    0.011    0.000    0.011    0.000 fake.py:1399(__get__)
+    10000    0.020    0.000    0.186    0.000 fake.py:1644(username)
+    30000    0.013    0.000    0.057    0.000 fake.py:1668(word)
+    10000    0.008    0.000    0.098    0.000 fake.py:1823(pystr)
+    30000    0.018    0.000    0.025    0.000 random.py:239(_randbelow_with_getrandbits)
+    30000    0.012    0.000    0.040    0.000 random.py:375(choice)
+    10000    0.009    0.000    0.088    0.000 random.py:506(choices)
+    10000    0.051    0.000    0.078    0.000 random.py:519(<listcomp>)
+        1    0.000    0.000    0.193    0.193 {built-in method builtins.exec}
+    40000    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+   200000    0.013    0.000    0.013    0.000 {built-in method math.floor}
+    30000    0.002    0.000    0.002    0.000 {method 'bit_length' of 'int' objects}
+    30000    0.005    0.000    0.005    0.000 {method 'capitalize' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    53454    0.005    0.000    0.005    0.000 {method 'getrandbits' of '_random.Random' objects}
+    10000    0.003    0.000    0.003    0.000 {method 'join' of 'str' objects}
+    10000    0.002    0.000    0.002    0.000 {method 'lower' of 'str' objects}
+   200000    0.014    0.000    0.014    0.000 {method 'random' of '_random.Random' objects}
+
+
+********************
+----------------------------------------------------------------------------------------------------
+[Mimesis] 98,269 of 100,000 (98.27%) are unique
+********************
+Generating using Mimesis:
+         3788694 function calls in 1.228 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.028    0.028    1.226    1.226 <string>:1(<listcomp>)
+        1    0.002    0.002    1.228    1.228 <string>:1(<module>)
+   100000    0.318    0.000    1.198    0.000 person.py:179(username)
+   400000    0.059    0.000    0.059    0.000 person.py:216(<genexpr>)
+   400000    0.216    0.000    0.294    0.000 random.py:239(_randbelow_with_getrandbits)
+   100000    0.091    0.000    0.186    0.000 random.py:292(randrange)
+   100000    0.034    0.000    0.220    0.000 random.py:366(randint)
+   300000    0.130    0.000    0.377    0.000 random.py:375(choice)
+   100000    0.044    0.000    0.160    0.000 re.py:232(findall)
+   100000    0.043    0.000    0.062    0.000 re.py:288(_compile)
+   300000    0.022    0.000    0.022    0.000 {built-in method _operator.index}
+   100000    0.042    0.000    0.092    0.000 {built-in method builtins.any}
+        1    0.000    0.000    1.228    1.228 {built-in method builtins.exec}
+   100000    0.020    0.000    0.020    0.000 {built-in method builtins.isinstance}
+   400000    0.035    0.000    0.035    0.000 {built-in method builtins.len}
+   400000    0.026    0.000    0.026    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+   100000    0.054    0.000    0.054    0.000 {method 'findall' of 're.Pattern' objects}
+   688690    0.052    0.000    0.052    0.000 {method 'getrandbits' of '_random.Random' objects}
+   100000    0.012    0.000    0.012    0.000 {method 'lower' of 'str' objects}
+
+
+********************
+[Faker] 72,111 of 100,000 (72.11%) are unique
+********************
+Generating using Faker:
+         9943241 function calls in 12.395 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.133    0.133   12.393   12.393 <string>:1(<listcomp>)
+        1    0.002    0.002   12.395   12.395 <string>:1(<module>)
+    75057    0.035    0.000    3.597    0.000 __init__.py:208(first_name)
+    75005    0.035    0.000    5.036    0.000 __init__.py:211(last_name)
+   100000    0.058    0.000    0.389    0.000 __init__.py:220(_to_ascii)
+   100000    0.178    0.000   11.433    0.000 __init__.py:281(user_name)
+    49990    0.031    0.000    0.183    0.000 __init__.py:320(random_digit)
+   100000    0.255    0.000    0.330    0.000 __init__.py:4(unidecode)
+   275005    4.885    0.000    9.002    0.000 __init__.py:412(random_elements)
+   275005    0.252    0.000    9.254    0.000 __init__.py:535(random_element)
+   100000    0.169    0.000    0.518    0.000 __init__.py:607(numerify)
+    49990    0.026    0.000    0.209    0.000 __init__.py:626(<lambda>)
+   100000    0.043    0.000    0.238    0.000 __init__.py:633(lexify)
+    24943    0.009    0.000    0.158    0.000 __init__.py:642(<lambda>)
+   100000    0.092    0.000    0.849    0.000 __init__.py:644(bothify)
+   100000    0.086    0.000   11.908    0.000 decorators.py:26(wrapper)
+   275005    1.020    0.000    3.940    0.000 distribution.py:57(choices_distribution)
+   100000    0.048    0.000    9.461    0.000 generator.py:161(parse)
+   150062    0.217    0.000    9.193    0.000 generator.py:177(__format_token)
+   324995    0.054    0.000    0.054    0.000 generator.py:60(random)
+   150062    0.107    0.000    8.850    0.000 generator.py:84(format)
+   150062    0.047    0.000    0.110    0.000 generator.py:90(get_formatter)
+   300000    0.209    0.000    0.209    0.000 proxy.py:107(__getattribute__)
+   100000    0.107    0.000    0.208    0.000 proxy.py:122(__getattr__)
+   174933    0.150    0.000    0.201    0.000 random.py:239(_randbelow_with_getrandbits)
+    49990    0.060    0.000    0.124    0.000 random.py:292(randrange)
+    49990    0.021    0.000    0.145    0.000 random.py:366(randint)
+   124943    0.068    0.000    0.235    0.000 random.py:375(choice)
+   150062    2.346    0.000    2.598    0.000 random.py:506(choices)
+   150062    0.114    0.000    0.198    0.000 random.py:540(<listcomp>)
+   100000    0.162    0.000    0.389    0.000 text.py:11(slugify)
+   150062    0.059    0.000    0.059    0.000 {built-in method _bisect.bisect_right}
+   149970    0.013    0.000    0.013    0.000 {built-in method _operator.index}
+        1    0.000    0.000   12.395   12.395 {built-in method builtins.exec}
+   250062    0.085    0.000    0.085    0.000 {built-in method builtins.getattr}
+   425067    0.074    0.000    0.074    0.000 {built-in method builtins.hasattr}
+   700072    0.086    0.000    0.086    0.000 {built-in method builtins.isinstance}
+   825191    0.102    0.000    0.102    0.000 {built-in method builtins.len}
+  1032181    0.075    0.000    0.075    0.000 {built-in method builtins.ord}
+   150062    0.022    0.000    0.022    0.000 {built-in method math.isfinite}
+   100000    0.025    0.000    0.025    0.000 {built-in method unicodedata.normalize}
+   174933    0.019    0.000    0.019    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+   310228    0.032    0.000    0.032    0.000 {method 'getrandbits' of '_random.Random' objects}
+   150062    0.034    0.000    0.034    0.000 {method 'groups' of 're.Match' objects}
+   150062    0.092    0.000    0.092    0.000 {method 'join' of 'str' objects}
+   200000    0.028    0.000    0.028    0.000 {method 'lower' of 'str' objects}
+   150062    0.025    0.000    0.025    0.000 {method 'random' of '_random.Random' objects}
+   100000    0.012    0.000    0.012    0.000 {method 'strip' of 'str' objects}
+   900000    0.575    0.000   10.134    0.000 {method 'sub' of 're.Pattern' objects}
+   150062    0.018    0.000    0.018    0.000 {method 'values' of 'collections.OrderedDict' objects}
+
+
+********************
+[fake.py] 100,000 of 100,000 (100.0%) are unique
+********************
+Generating using fake.py:
+         7536725 function calls in 1.872 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.045    0.045    1.870    1.870 <string>:1(<listcomp>)
+        1    0.002    0.002    1.872    1.872 <string>:1(<module>)
+   500000    0.103    0.000    0.103    0.000 fake.py:1399(__get__)
+   100000    0.193    0.000    1.803    0.000 fake.py:1644(username)
+   300000    0.125    0.000    0.561    0.000 fake.py:1668(word)
+   100000    0.073    0.000    0.949    0.000 fake.py:1823(pystr)
+   300000    0.176    0.000    0.243    0.000 random.py:239(_randbelow_with_getrandbits)
+   300000    0.121    0.000    0.390    0.000 random.py:375(choice)
+   100000    0.089    0.000    0.848    0.000 random.py:506(choices)
+   100000    0.490    0.000    0.750    0.000 random.py:519(<listcomp>)
+        1    0.000    0.000    1.872    1.872 {built-in method builtins.exec}
+   400000    0.035    0.000    0.035    0.000 {built-in method builtins.len}
+  2000000    0.127    0.000    0.127    0.000 {built-in method math.floor}
+   300000    0.023    0.000    0.023    0.000 {method 'bit_length' of 'int' objects}
+   300000    0.047    0.000    0.047    0.000 {method 'capitalize' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+   536721    0.044    0.000    0.044    0.000 {method 'getrandbits' of '_random.Random' objects}
+   100000    0.028    0.000    0.028    0.000 {method 'join' of 'str' objects}
+   100000    0.018    0.000    0.018    0.000 {method 'lower' of 'str' objects}
+  2000000    0.133    0.000    0.133    0.000 {method 'random' of '_random.Random' objects}
+
+
+********************
+----------------------------------------------------------------------------------------------------
+[Mimesis] 843,729 of 1,000,000 (84.37%) are unique
+********************
+Generating using Mimesis:
+         37894126 function calls in 12.288 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.290    0.290   12.271   12.271 <string>:1(<listcomp>)
+        1    0.017    0.017   12.288   12.288 <string>:1(<module>)
+  1000000    3.210    0.000   11.981    0.000 person.py:179(username)
+  4000000    0.585    0.000    0.585    0.000 person.py:216(<genexpr>)
+  4000000    2.152    0.000    2.941    0.000 random.py:239(_randbelow_with_getrandbits)
+  1000000    0.921    0.000    1.873    0.000 random.py:292(randrange)
+  1000000    0.337    0.000    2.210    0.000 random.py:366(randint)
+  3000000    1.261    0.000    3.728    0.000 random.py:375(choice)
+  1000000    0.432    0.000    1.617    0.000 re.py:232(findall)
+  1000000    0.430    0.000    0.627    0.000 re.py:288(_compile)
+  3000000    0.224    0.000    0.224    0.000 {built-in method _operator.index}
+  1000000    0.417    0.000    0.910    0.000 {built-in method builtins.any}
+        1    0.000    0.000   12.288   12.288 {built-in method builtins.exec}
+  1000000    0.197    0.000    0.197    0.000 {built-in method builtins.isinstance}
+  4000000    0.353    0.000    0.353    0.000 {built-in method builtins.len}
+  4000000    0.264    0.000    0.264    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+  1000000    0.557    0.000    0.557    0.000 {method 'findall' of 're.Pattern' objects}
+  6894122    0.524    0.000    0.524    0.000 {method 'getrandbits' of '_random.Random' objects}
+  1000000    0.115    0.000    0.115    0.000 {method 'lower' of 'str' objects}
+
+
+********************
+[Faker] 343,662 of 1,000,000 (34.37%) are unique
+********************
+Generating using Faker:
+         99432608 function calls in 139.753 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.569    1.569  139.732  139.732 <string>:1(<listcomp>)
+        1    0.020    0.020  139.753  139.753 <string>:1(<module>)
+   749865    0.398    0.000   40.472    0.000 __init__.py:208(first_name)
+   750390    0.385    0.000   56.636    0.000 __init__.py:211(last_name)
+  1000000    0.661    0.000    4.378    0.000 __init__.py:220(_to_ascii)
+  1000000    2.025    0.000  128.777    0.000 __init__.py:281(user_name)
+   499220    0.355    0.000    2.062    0.000 __init__.py:320(random_digit)
+  1000000    2.881    0.000    3.717    0.000 __init__.py:4(unidecode)
+  2750390   54.746    0.000  101.277    0.000 __init__.py:412(random_elements)
+  2750390    2.821    0.000  104.099    0.000 __init__.py:535(random_element)
+  1000000    1.928    0.000    5.843    0.000 __init__.py:607(numerify)
+   499220    0.293    0.000    2.355    0.000 __init__.py:626(<lambda>)
+  1000000    0.490    0.000    2.682    0.000 __init__.py:633(lexify)
+   250135    0.105    0.000    1.782    0.000 __init__.py:642(<lambda>)
+  1000000    1.046    0.000    9.571    0.000 __init__.py:644(bothify)
+  1000000    0.977    0.000  134.128    0.000 decorators.py:26(wrapper)
+  2750390   11.471    0.000   44.543    0.000 distribution.py:57(choices_distribution)
+  1000000    0.541    0.000  106.528    0.000 generator.py:161(parse)
+  1500255    2.459    0.000  103.479    0.000 generator.py:177(__format_token)
+  3249610    0.620    0.000    0.620    0.000 generator.py:60(random)
+  1500255    1.216    0.000   99.597    0.000 generator.py:84(format)
+  1500255    0.539    0.000    1.272    0.000 generator.py:90(get_formatter)
+  3000000    2.429    0.000    2.429    0.000 proxy.py:107(__getattribute__)
+  1000000    1.199    0.000    2.355    0.000 proxy.py:122(__getattr__)
+  1749355    1.679    0.000    2.259    0.000 random.py:239(_randbelow_with_getrandbits)
+   499220    0.676    0.000    1.392    0.000 random.py:292(randrange)
+   499220    0.238    0.000    1.630    0.000 random.py:366(randint)
+  1250135    0.767    0.000    2.645    0.000 random.py:375(choice)
+  1500255   26.512    0.000   29.414    0.000 random.py:506(choices)
+  1500255    1.320    0.000    2.293    0.000 random.py:540(<listcomp>)
+  1000000    1.826    0.000    4.373    0.000 text.py:11(slugify)
+  1500255    0.677    0.000    0.677    0.000 {built-in method _bisect.bisect_right}
+  1497660    0.148    0.000    0.148    0.000 {built-in method _operator.index}
+        1    0.000    0.000  139.753  139.753 {built-in method builtins.exec}
+  2500255    0.986    0.000    0.986    0.000 {built-in method builtins.getattr}
+  4250645    0.847    0.000    0.847    0.000 {built-in method builtins.hasattr}
+  7001035    0.974    0.000    0.974    0.000 {built-in method builtins.isinstance}
+  8251155    1.150    0.000    1.150    0.000 {built-in method builtins.len}
+ 10324868    0.836    0.000    0.836    0.000 {built-in method builtins.ord}
+  1500255    0.246    0.000    0.246    0.000 {built-in method math.isfinite}
+  1000000    0.283    0.000    0.283    0.000 {built-in method unicodedata.normalize}
+  1749355    0.216    0.000    0.216    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+  3107286    0.364    0.000    0.364    0.000 {method 'getrandbits' of '_random.Random' objects}
+  1500255    0.384    0.000    0.384    0.000 {method 'groups' of 're.Match' objects}
+  1500255    1.040    0.000    1.040    0.000 {method 'join' of 'str' objects}
+  2000000    0.312    0.000    0.312    0.000 {method 'lower' of 'str' objects}
+  1500255    0.295    0.000    0.295    0.000 {method 'random' of '_random.Random' objects}
+  1000000    0.139    0.000    0.139    0.000 {method 'strip' of 'str' objects}
+  9000000    6.471    0.000  114.087    0.000 {method 'sub' of 're.Pattern' objects}
+  1500255    0.197    0.000    0.197    0.000 {method 'values' of 'collections.OrderedDict' objects}
+
+
+********************
+[fake.py] 1,000,000 of 1,000,000 (100.0%) are unique
+********************
+Generating using fake.py:
+         75372290 function calls in 19.956 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.469    0.469   19.936   19.936 <string>:1(<listcomp>)
+        1    0.020    0.020   19.956   19.956 <string>:1(<module>)
+  5000000    1.078    0.000    1.078    0.000 fake.py:1399(__get__)
+  1000000    2.026    0.000   19.217    0.000 fake.py:1644(username)
+  3000000    1.353    0.000    5.967    0.000 fake.py:1668(word)
+  1000000    0.796    0.000   10.200    0.000 fake.py:1823(pystr)
+  3000000    1.879    0.000    2.595    0.000 random.py:239(_randbelow_with_getrandbits)
+  3000000    1.280    0.000    4.153    0.000 random.py:375(choice)
+  1000000    0.946    0.000    9.109    0.000 random.py:506(choices)
+  1000000    5.254    0.000    8.061    0.000 random.py:519(<listcomp>)
+        1    0.000    0.000   19.956   19.956 {built-in method builtins.exec}
+  4000000    0.381    0.000    0.381    0.000 {built-in method builtins.len}
+ 20000000    1.371    0.000    1.371    0.000 {built-in method math.floor}
+  3000000    0.247    0.000    0.247    0.000 {method 'bit_length' of 'int' objects}
+  3000000    0.461    0.000    0.461    0.000 {method 'capitalize' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+  5372286    0.469    0.000    0.469    0.000 {method 'getrandbits' of '_random.Random' objects}
+  1000000    0.295    0.000    0.295    0.000 {method 'join' of 'str' objects}
+  1000000    0.196    0.000    0.196    0.000 {method 'lower' of 'str' objects}
+ 20000000    1.436    0.000    1.436    0.000 {method 'random' of '_random.Random' objects}
+
+
+********************
+----------------------------------------------------------------------------------------------------
