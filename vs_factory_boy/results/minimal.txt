@@ -1,5 +1,5 @@
 Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFactory):
-         391941 function calls (381939 primitive calls) in 12.062 seconds
+         391904 function calls (381920 primitive calls) in 12.530 seconds
 
    Ordered by: standard name
 
@@ -8,7 +8,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
         2    0.000    0.000    0.000    0.000 <frozen _collections_abc>:309(__subclasshook__)
         2    0.000    0.000    0.000    0.000 <frozen _collections_abc>:388(__subclasshook__)
        26    0.000    0.000    0.000    0.000 <frozen _collections_abc>:435(__subclasshook__)
-     1000    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+     1000    0.000    0.000    0.001    0.000 <frozen abc>:117(__instancecheck__)
      30/4    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
       641    0.000    0.000    0.001    0.000 <frozen genericpath>:39(isdir)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
@@ -17,9 +17,9 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
        20    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
        45    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1285(_sanity_check)
-    20/19    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
-    46/45    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap>:1349(_find_and_load)
-       45    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap>:1375(_gcd_import)
+    20/19    0.000    0.000    0.009    0.000 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+    46/45    0.000    0.000    0.010    0.000 <frozen importlib._bootstrap>:1349(_find_and_load)
+       45    0.000    0.000    0.010    0.000 <frozen importlib._bootstrap>:1375(_gcd_import)
        24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1390(_handle_fromlist)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
@@ -33,7 +33,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
-    40/38    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+    40/38    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
        64    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
        40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:632(cached)
@@ -44,12 +44,12 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
-    20/19    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap>:911(_load_unlocked)
+    20/19    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap>:911(_load_unlocked)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
-       20    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:1062(get_code)
+       20    0.000    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:1062(get_code)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1153(__init__)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1178(get_filename)
-       20    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1183(get_data)
+       20    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:1183(get_data)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1202(path_stats)
       139    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:126(_path_join)
        40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
@@ -62,7 +62,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1588(_get_spec)
        77    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
        20    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1593(find_spec)
-       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1644(_fill_cache)
+       16    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1644(_fill_cache)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_abspath)
        40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:482(cache_from_source)
@@ -75,7 +75,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:802(spec_from_file_location)
        60    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:986(create_module)
-    20/19    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:989(exec_module)
+    20/19    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:989(exec_module)
      1267    0.000    0.000    0.000    0.000 <frozen importlib.machinery>:18(all_suffixes)
        19    0.000    0.000    0.000    0.000 <frozen os>:853(fsdecode)
        19    0.000    0.000    0.000    0.000 <frozen posixpath>:138(splitroot)
@@ -83,8 +83,8 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
      1891    0.000    0.000    0.000    0.000 <frozen posixpath>:41(_get_sep)
       624    0.000    0.000    0.001    0.000 <frozen posixpath>:71(join)
       100    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
-        1    0.000    0.000   12.062   12.062 <string>:1(<module>)
-       19    0.000    0.000    0.001    0.000 __init__.py:1(<module>)
+        1    0.000    0.000   12.531   12.531 <string>:1(<module>)
+       19    0.000    0.000    0.002    0.000 __init__.py:1(<module>)
         1    0.000    0.000    0.001    0.001 __init__.py:10(Provider)
       200    0.000    0.000    0.000    0.000 __init__.py:102(_rand_seconds)
       200    0.000    0.000    0.000    0.000 __init__.py:108(return_None)
@@ -108,13 +108,13 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       744    0.000    0.000    0.000    0.000 __init__.py:1790(isEnabledFor)
       400    0.000    0.000    0.001    0.000 __init__.py:1979(_parse_date_string)
       400    0.001    0.000    0.004    0.000 __init__.py:2014(_parse_date_time)
-      200    0.000    0.000    0.005    0.000 __init__.py:2048(date_time_between)
+      200    0.001    0.000    0.005    0.000 __init__.py:2048(date_time_between)
       200    0.000    0.000    0.000    0.000 __init__.py:2048(get_prep_value)
-      253    0.000    0.000    0.007    0.000 __init__.py:208(first_name)
-      254    0.000    0.000    0.009    0.000 __init__.py:211(last_name)
+      255    0.000    0.000    0.007    0.000 __init__.py:208(first_name)
+      243    0.000    0.000    0.009    0.000 __init__.py:211(last_name)
       200    0.000    0.000    0.000    0.000 __init__.py:221(_to_ascii)
         5    0.000    0.000    0.001    0.000 __init__.py:226(compile)
-      100    0.000    0.000    0.007    0.000 __init__.py:228(email)
+      100    0.000    0.000    0.006    0.000 __init__.py:228(email)
         3    0.000    0.000    0.000    0.000 __init__.py:234(_acquireLock)
       100    0.000    0.000    0.000    0.000 __init__.py:239(safe_domain_name)
       400    0.000    0.000    0.002    0.000 __init__.py:24(datetime_to_timestamp)
@@ -125,28 +125,28 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       200    0.000    0.000    0.014    0.000 __init__.py:282(user_name)
        25    0.000    0.000    0.000    0.000 __init__.py:285(__init__)
       100    0.000    0.000    0.000    0.000 __init__.py:309(random_int)
-       92    0.000    0.000    0.000    0.000 __init__.py:321(random_digit)
+      114    0.000    0.000    0.000    0.000 __init__.py:321(random_digit)
         2    0.000    0.000    0.000    0.000 __init__.py:328(__getattr__)
        14    0.000    0.000    0.000    0.000 __init__.py:4(Provider)
       200    0.000    0.000    0.000    0.000 __init__.py:4(unidecode)
-      854    0.008    0.000    0.017    0.000 __init__.py:413(random_elements)
+      843    0.008    0.000    0.017    0.000 __init__.py:413(random_elements)
       100    0.000    0.000    0.000    0.000 __init__.py:470(_asdict)
      1500    0.000    0.000    0.001    0.000 __init__.py:492(get_col)
        11    0.000    0.000    0.000    0.000 __init__.py:501(cached_col)
      1100    0.000    0.000    0.000    0.000 __init__.py:507(select_format)
-      854    0.001    0.000    0.017    0.000 __init__.py:536(random_element)
+      843    0.001    0.000    0.017    0.000 __init__.py:536(random_element)
       300    0.000    0.000    0.000    0.000 __init__.py:595(__init__)
         2    0.000    0.000    0.000    0.000 __init__.py:6(Provider)
       200    0.000    0.000    0.001    0.000 __init__.py:608(numerify)
      1500    0.001    0.000    0.001    0.000 __init__.py:615(__eq__)
-       92    0.000    0.000    0.000    0.000 __init__.py:627(<lambda>)
+      114    0.000    0.000    0.000    0.000 __init__.py:627(<lambda>)
       200    0.000    0.000    0.000    0.000 __init__.py:634(lexify)
-       47    0.000    0.000    0.000    0.000 __init__.py:643(<lambda>)
+       45    0.000    0.000    0.000    0.000 __init__.py:643(<lambda>)
       200    0.000    0.000    0.001    0.000 __init__.py:645(bothify)
       600    0.000    0.000    0.000    0.000 __init__.py:669(update)
       100    0.000    0.000    0.000    0.000 __init__.py:688(get_pk_value_on_save)
         1    0.000    0.000    0.000    0.000 __init__.py:7(Provider)
-       45    0.000    0.000    0.004    0.000 __init__.py:73(import_module)
+       45    0.000    0.000    0.010    0.000 __init__.py:73(import_module)
       300    0.000    0.000    0.001    0.000 __init__.py:781(db_type_parameters)
       300    0.000    0.000    0.001    0.000 __init__.py:798(db_type)
      1200    0.000    0.000    0.000    0.000 __init__.py:860(get_db_converters)
@@ -172,7 +172,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
         5    0.000    0.000    0.000    0.000 _compiler.py:573(_code)
         5    0.000    0.000    0.001    0.000 _compiler.py:740(compile)
       600    0.000    0.000    0.000    0.000 _factories.py:13(__call__)
-        1    0.000    0.000    0.000    0.000 _functions.py:40(register)
+        1    0.000    0.000    0.001    0.001 _functions.py:40(register)
        37    0.000    0.000    0.000    0.000 _parser.py:113(__init__)
        64    0.000    0.000    0.000    0.000 _parser.py:164(__len__)
       183    0.000    0.000    0.000    0.000 _parser.py:168(__getitem__)
@@ -197,49 +197,49 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
         5    0.000    0.000    0.000    0.000 _parser.py:969(parse)
        13    0.000    0.000    0.000    0.000 _parser.py:98(closegroup)
        20    0.000    0.000    0.000    0.000 _virtualenv.py:52(find_spec)
- 1403/900    0.001    0.000    0.033    0.000 asyncio.py:15(inner)
-      200    0.000    0.000    0.141    0.001 base.py:1028(_do_update)
-      100    0.000    0.000    0.024    0.000 base.py:1056(_do_insert)
+ 1403/900    0.001    0.000    0.037    0.000 asyncio.py:15(inner)
+      200    0.000    0.000    0.158    0.001 base.py:1028(_do_update)
+      100    0.000    0.000    0.029    0.000 base.py:1056(_do_insert)
       300    0.000    0.000    0.000    0.000 base.py:1069(_prepare_related_fields_for_save)
         1    0.000    0.000    0.000    0.000 base.py:146(get_connection_params)
         1    0.000    0.000    0.000    0.000 base.py:148(timezone)
         1    0.000    0.000    0.000    0.000 base.py:175(get_database_version)
-        1    0.000    0.000    0.000    0.000 base.py:178(get_new_connection)
+        1    0.000    0.000    0.002    0.002 base.py:178(get_new_connection)
       600    0.000    0.000    0.001    0.000 base.py:183(queries_logged)
       500    0.000    0.000    0.000    0.000 base.py:189(create_cursor)
         1    0.000    0.000    0.000    0.000 base.py:203(check_database_version_supported)
       101    0.000    0.000    0.000    0.000 base.py:209(_set_autocommit)
         1    0.000    0.000    0.000    0.000 base.py:235(init_connection_state)
-        1    0.000    0.000    0.000    0.000 base.py:250(connect)
+        1    0.000    0.000    0.002    0.002 base.py:250(connect)
       100    0.000    0.000    0.000    0.000 base.py:251(_initialize_counter)
       100    0.000    0.000    0.000    0.000 base.py:266(next_sequence)
         1    0.000    0.000    0.000    0.000 base.py:277(check_settings)
-  801/800    0.000    0.000    0.000    0.000 base.py:284(ensure_connection)
+  801/800    0.000    0.000    0.002    0.000 base.py:284(ensure_connection)
       100    0.000    0.000    0.000    0.000 base.py:289(prepare_arguments)
       500    0.000    0.000    0.002    0.000 base.py:293(_prepare_cursor)
-      100    0.000    0.000    0.001    0.000 base.py:293(_start_transaction_under_autocommit)
-      500    0.001    0.000    0.003    0.000 base.py:304(_cursor)
+      100    0.000    0.000    0.002    0.000 base.py:293(_start_transaction_under_autocommit)
+      500    0.001    0.000    0.005    0.000 base.py:304(_cursor)
       100    0.000    0.000    0.000    0.000 base.py:307(<genexpr>)
-      100    0.000    0.000    0.029    0.000 base.py:310(_commit)
-      100    0.000    0.000    0.090    0.001 base.py:314(instantiate)
-      500    0.000    0.000    0.122    0.000 base.py:322(execute)
-      100    0.000    0.000    0.062    0.001 base.py:325(use_postgeneration_results)
-      500    0.000    0.000    0.003    0.000 base.py:327(cursor)
-      100    0.000    0.000    0.029    0.000 base.py:332(commit)
+      100    0.000    0.000    0.031    0.000 base.py:310(_commit)
+      100    0.000    0.000    0.102    0.001 base.py:314(instantiate)
+      500    0.000    0.000    0.143    0.000 base.py:322(execute)
+      100    0.000    0.000    0.070    0.001 base.py:325(use_postgeneration_results)
+      500    0.000    0.000    0.005    0.000 base.py:327(cursor)
+      100    0.000    0.000    0.031    0.000 base.py:332(commit)
       400    0.000    0.000    0.002    0.000 base.py:341(convert_query)
         1    0.000    0.000    0.000    0.000 base.py:399(__init__)
       100    0.000    0.000    0.000    0.000 base.py:402(next)
   302/300    0.000    0.000    0.000    0.000 base.py:430(_base_manager)
         1    0.000    0.000    0.000    0.000 base.py:439(_setup_next_sequence)
       100    0.000    0.000    0.000    0.000 base.py:448(_adjust_kwargs)
-      100    0.000    0.000   12.062    0.121 base.py:453(_generate)
+      100    0.000    0.000   12.530    0.125 base.py:453(_generate)
       100    0.001    0.000    0.001    0.000 base.py:460(__init__)
       100    0.000    0.000    0.000    0.000 base.py:462(get_autocommit)
       201    0.000    0.000    0.002    0.000 base.py:467(set_autocommit)
       401    0.000    0.000    0.000    0.000 base.py:522(validate_no_atomic_block)
       500    0.000    0.000    0.000    0.000 base.py:529(validate_no_broken_transaction)
-      100    0.000    0.000   12.062    0.121 base.py:533(create)
-        1    0.000    0.000   12.062   12.062 base.py:541(create_batch)
+      100    0.000    0.000   12.531    0.125 base.py:533(create)
+        1    0.000    0.000   12.531   12.531 base.py:541(create_batch)
       701    0.000    0.000    0.000    0.000 base.py:588(close_if_health_check_failed)
       600    0.000    0.000    0.000    0.000 base.py:630(allow_thread_sharing)
       600    0.000    0.000    0.001    0.000 base.py:647(validate_thread_sharing)
@@ -248,13 +248,13 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
         1    0.000    0.000    0.000    0.000 base.py:671(wrap_database_errors)
       500    0.000    0.000    0.000    0.000 base.py:686(make_debug_cursor)
       100    0.000    0.000    0.000    0.000 base.py:762(run_and_clear_commit_hooks)
-      300    0.001    0.000    0.172    0.001 base.py:767(save)
-      300    0.001    0.000    0.171    0.001 base.py:835(save_base)
+      300    0.001    0.000    0.195    0.001 base.py:767(save)
+      300    0.001    0.000    0.194    0.001 base.py:835(save_base)
       300    0.000    0.000    0.000    0.000 base.py:903(_save_parents)
-      300    0.001    0.000    0.169    0.001 base.py:938(_save_table)
+      300    0.001    0.000    0.192    0.001 base.py:938(_save_table)
       100    0.000    0.000    0.000    0.000 base64.py:51(b64encode)
-      100    0.000    0.000   11.764    0.118 base_user.py:107(set_password)
-      300    0.000    0.000    0.172    0.001 base_user.py:75(save)
+      100    0.000    0.000   12.197    0.122 base_user.py:107(set_password)
+      300    0.000    0.000    0.196    0.001 base_user.py:75(save)
       100    0.000    0.000    0.000    0.000 builder.py:101(<lambda>)
       900    0.000    0.000    0.000    0.000 builder.py:104(__contains__)
      1000    0.001    0.000    0.001    0.000 builder.py:107(__getitem__)
@@ -263,16 +263,16 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       200    0.000    0.000    0.001    0.000 builder.py:129(as_dict)
       100    0.000    0.000    0.002    0.000 builder.py:145(parse_declarations)
       100    0.000    0.000    0.000    0.000 builder.py:196(__init__)
-      100    0.000    0.000    0.056    0.001 builder.py:203(resolve)
+      100    0.000    0.000    0.062    0.001 builder.py:203(resolve)
       100    0.000    0.000    0.000    0.000 builder.py:243(__init__)
-      100    0.000    0.000   12.062    0.121 builder.py:249(build)
+      100    0.001    0.000   12.530    0.125 builder.py:249(build)
       200    0.000    0.000    0.001    0.000 builder.py:25(__init__)
      1000    0.000    0.000    0.000    0.000 builder.py:30(split)
       100    0.000    0.000    0.000    0.000 builder.py:322(__init__)
-      900    0.001    0.000    0.055    0.000 builder.py:338(__getattr__)
+      900    0.001    0.000    0.061    0.000 builder.py:338(__getattr__)
       500    0.000    0.000    0.000    0.000 builder.py:372(__setattr__)
       200    0.000    0.000    0.001    0.000 builder.py:57(copy)
-      500    0.000    0.000    0.001    0.000 builder.py:60(update)
+      500    0.001    0.000    0.001    0.000 builder.py:60(update)
       100    0.000    0.000    0.000    0.000 builder.py:86(filter)
       100    0.000    0.000    0.000    0.000 builder.py:98(sorted)
       400    0.000    0.000    0.000    0.000 calendar.py:683(timegm)
@@ -282,7 +282,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       200    0.001    0.000    0.003    0.000 compiler.py:1483(get_converters)
       100    0.000    0.000    0.000    0.000 compiler.py:1493(apply_converters)
       100    0.000    0.000    0.003    0.000 compiler.py:1504(results_iter)
-      300    0.000    0.000    0.144    0.000 compiler.py:1532(execute_sql)
+      300    0.001    0.000    0.163    0.001 compiler.py:1532(execute_sql)
         1    0.000    0.000    0.000    0.000 compiler.py:1623(SQLInsertCompiler)
      1000    0.000    0.000    0.001    0.000 compiler.py:1627(field_as_sql)
      1000    0.000    0.000    0.003    0.000 compiler.py:1659(prepare_value)
@@ -292,12 +292,12 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
      1100    0.000    0.000    0.001    0.000 compiler.py:1715(<genexpr>)
       200    0.000    0.000    0.001    0.000 compiler.py:1721(<genexpr>)
       100    0.001    0.000    0.007    0.000 compiler.py:1732(as_sql)
-     1100    0.000    0.000    0.000    0.000 compiler.py:1742(<genexpr>)
-      100    0.000    0.000    0.022    0.000 compiler.py:1812(execute_sql)
+     1100    0.000    0.000    0.001    0.000 compiler.py:1742(<genexpr>)
+      100    0.000    0.000    0.028    0.000 compiler.py:1812(execute_sql)
         1    0.000    0.000    0.000    0.000 compiler.py:1855(SQLDeleteCompiler)
         1    0.000    0.000    0.000    0.000 compiler.py:1912(SQLUpdateCompiler)
-      200    0.002    0.000    0.012    0.000 compiler.py:1913(as_sql)
-      200    0.000    0.000    0.127    0.001 compiler.py:1977(execute_sql)
+      200    0.002    0.000    0.013    0.000 compiler.py:1913(as_sql)
+      200    0.000    0.000    0.143    0.001 compiler.py:1977(execute_sql)
       200    0.000    0.000    0.001    0.000 compiler.py:1998(pre_sql_setup)
         1    0.000    0.000    0.000    0.000 compiler.py:2062(SQLAggregateCompiler)
       100    0.000    0.000    0.001    0.000 compiler.py:2087(cursor_iter)
@@ -309,25 +309,25 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       100    0.000    0.000    0.000    0.000 compiler.py:448(get_order_by)
       400    0.000    0.000    0.000    0.000 compiler.py:46(__init__)
       100    0.000    0.000    0.000    0.000 compiler.py:509(get_extra_select)
-     4200    0.002    0.000    0.003    0.000 compiler.py:519(quote_name_unless_alias)
-2100/1500    0.001    0.000    0.010    0.000 compiler.py:541(compile)
+     4200    0.002    0.000    0.004    0.000 compiler.py:519(quote_name_unless_alias)
+2100/1500    0.001    0.000    0.011    0.000 compiler.py:541(compile)
       100    0.000    0.000    0.006    0.000 compiler.py:70(setup_query)
       200    0.000    0.000    0.000    0.000 compiler.py:71(<genexpr>)
-      100    0.001    0.000    0.011    0.000 compiler.py:725(as_sql)
-      100    0.000    0.000    0.007    0.000 compiler.py:78(pre_sql_setup)
+      100    0.001    0.000    0.012    0.000 compiler.py:725(as_sql)
+      100    0.000    0.000    0.008    0.000 compiler.py:78(pre_sql_setup)
       100    0.000    0.000    0.000    0.000 compiler.py:94(get_group_by)
       100    0.001    0.000    0.001    0.000 compiler.py:950(get_default_columns)
-      600    0.000    0.000    0.002    0.000 connection.py:56(__getitem__)
+      600    0.000    0.000    0.003    0.000 connection.py:56(__getitem__)
      1500    0.001    0.000    0.001    0.000 contextlib.py:104(__init__)
      1500    0.000    0.000    0.001    0.000 contextlib.py:132(__enter__)
-     1500    0.000    0.000    0.006    0.000 contextlib.py:141(__exit__)
+     1500    0.000    0.000    0.007    0.000 contextlib.py:141(__exit__)
      1500    0.000    0.000    0.001    0.000 contextlib.py:299(helper)
       300    0.000    0.000    0.001    0.000 copy.py:247(_reconstruct)
       300    0.001    0.000    0.002    0.000 copy.py:61(copy)
       300    0.000    0.000    0.000    0.000 copyreg.py:98(__newobj__)
       100    0.000    0.000    0.004    0.000 crypto.py:51(get_random_string)
      2300    0.000    0.000    0.004    0.000 crypto.py:62(<genexpr>)
-      100    0.000    0.000   11.759    0.118 crypto.py:70(pbkdf2)
+      100    0.000    0.000   12.191    0.122 crypto.py:70(pbkdf2)
       300    0.000    0.000    0.000    0.000 datastructures.py:195(__init__)
       100    0.000    0.000    0.000    0.000 datastructures.py:199(as_sql)
         2    0.000    0.000    0.000    0.000 datastructures.py:233(__new__)
@@ -335,19 +335,19 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       100    0.000    0.000    0.000    0.000 datastructures.py:272(__getitem__)
       800    0.001    0.000    0.002    0.000 declarations.py:36(unroll_context)
      2100    0.000    0.000    0.001    0.000 declarations.py:43(<genexpr>)
-      100    0.000    0.000   11.851    0.119 declarations.py:645(evaluate_post)
-      700    0.000    0.000    0.053    0.000 declarations.py:65(evaluate_pre)
-      100    0.000    0.000   11.850    0.119 declarations.py:672(call)
+      100    0.000    0.000   12.293    0.123 declarations.py:645(evaluate_post)
+      700    0.000    0.000    0.059    0.000 declarations.py:65(evaluate_pre)
+      100    0.000    0.000   12.293    0.123 declarations.py:672(call)
       611    0.000    0.000    0.000    0.000 deconstruct.py:15(__new__)
       200    0.000    0.000    0.014    0.000 decorators.py:26(wrapper)
-  200/100    0.000    0.000    0.007    0.000 decorators.py:34(wrapper)
+  200/100    0.000    0.000    0.006    0.000 decorators.py:34(wrapper)
       801    0.000    0.000    0.000    0.000 dispatcher.py:152(send)
-      854    0.002    0.000    0.008    0.000 distribution.py:57(choices_distribution)
+      843    0.002    0.000    0.008    0.000 distribution.py:57(choices_distribution)
       100    0.000    0.000    0.000    0.000 django.py:100(_get_manager)
-      100    0.000    0.000   12.062    0.121 django.py:117(_generate)
-      100    0.000    0.000    0.090    0.001 django.py:124(_get_or_create)
-      100    0.000    0.000    0.090    0.001 django.py:168(_create)
-      100    0.000    0.000    0.062    0.001 django.py:178(_after_postgeneration)
+      100    0.000    0.000   12.531    0.125 django.py:117(_generate)
+      100    0.000    0.000    0.101    0.001 django.py:124(_get_or_create)
+      100    0.000    0.000    0.102    0.001 django.py:168(_create)
+      100    0.000    0.000    0.070    0.001 django.py:178(_after_postgeneration)
       100    0.000    0.000    0.000    0.000 django.py:68(get_model_class)
       200    0.000    0.000    0.000    0.000 encoding.py:90(force_bytes)
        11    0.000    0.000    0.000    0.000 enum.py:1129(__new__)
@@ -376,11 +376,11 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       300    0.000    0.000    0.001    0.000 expressions.py:386(get_lookup)
       300    0.000    0.000    0.002    0.000 expressions.py:421(copy)
      1100    0.000    0.000    0.001    0.000 expressions.py:470(select_format)
-        1    0.000    0.000    0.022    0.022 factory.py:24(create)
-       25    0.000    0.000    0.021    0.001 factory.py:67(_find_provider_class)
-      100    0.000    0.000   11.850    0.119 factory_boy_django_auth_minimal.py:56(set_password)
-      700    0.001    0.000    0.051    0.000 faker.py:46(evaluate)
-      700    0.000    0.000    0.023    0.000 faker.py:64(_get_faker)
+        1    0.000    0.000    0.028    0.028 factory.py:24(create)
+       25    0.000    0.000    0.027    0.001 factory.py:67(_find_provider_class)
+      100    0.000    0.000   12.293    0.123 factory_boy_django_auth_minimal.py:51(set_password)
+      700    0.001    0.000    0.057    0.000 faker.py:46(evaluate)
+      700    0.000    0.000    0.028    0.000 faker.py:64(_get_faker)
         1    0.000    0.000    0.000    0.000 features.py:159(can_return_columns_from_insert)
         2    0.000    0.000    0.000    0.000 functional.py:26(__init__)
       400    0.000    0.000    0.000    0.000 functional.py:264(inner)
@@ -398,24 +398,24 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
        19    0.000    0.000    0.000    0.000 functools.py:902(wrapper)
       804    0.000    0.000    0.000    0.000 generator.py:100(set_formatter)
       200    0.000    0.000    0.011    0.000 generator.py:161(parse)
-      307    0.000    0.000    0.011    0.000 generator.py:177(__format_token)
+      298    0.000    0.000    0.011    0.000 generator.py:177(__format_token)
         1    0.000    0.000    0.000    0.000 generator.py:27(__init__)
        25    0.000    0.000    0.001    0.000 generator.py:32(add_provider)
-     1246    0.000    0.000    0.000    0.000 generator.py:60(random)
- 1007/700    0.001    0.000    0.026    0.000 generator.py:84(format)
-     1007    0.000    0.000    0.000    0.000 generator.py:90(get_formatter)
+     1257    0.000    0.000    0.000    0.000 generator.py:60(random)
+  998/700    0.001    0.000    0.026    0.000 generator.py:84(format)
+      998    0.000    0.000    0.000    0.000 generator.py:90(get_formatter)
         1    0.000    0.000    0.000    0.000 hashers.py:100(get_hashers)
       100    0.000    0.000    0.000    0.000 hashers.py:126(get_hasher)
       100    0.000    0.000    0.005    0.000 hashers.py:220(salt)
       100    0.000    0.000    0.000    0.000 hashers.py:236(_check_encode_args)
-      100    0.000    0.000   11.759    0.118 hashers.py:308(encode)
-      100    0.000    0.000   11.764    0.118 hashers.py:78(make_password)
+      100    0.000    0.000   12.192    0.122 hashers.py:308(encode)
+      100    0.000    0.000   12.196    0.122 hashers.py:78(make_password)
         2    0.000    0.000    0.000    0.000 inspect.py:748(getmro)
      1267    0.002    0.000    0.004    0.000 inspect.py:939(getmodulename)
        19    0.000    0.000    0.000    0.000 loading.py:10(get_path)
-       19    0.000    0.000    0.017    0.001 loading.py:31(list_module)
+       19    0.000    0.000    0.018    0.001 loading.py:31(list_module)
       600    0.000    0.000    0.002    0.000 local.py:116(__getattr__)
-     1200    0.000    0.000    0.000    0.000 local.py:81(_lock_storage)
+     1200    0.000    0.000    0.001    0.000 local.py:81(_lock_storage)
         1    0.000    0.000    0.000    0.000 locale.py:381(normalize)
       300    0.000    0.000    0.000    0.000 lookups.py:108(process_rhs)
       200    0.000    0.000    0.000    0.000 lookups.py:128(rhs_is_direct_value)
@@ -435,7 +435,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       100    0.000    0.000    0.000    0.000 manager.py:184(__get__)
         3    0.000    0.000    0.000    0.000 manager.py:21(__new__)
         3    0.000    0.000    0.000    0.000 manager.py:27(__init__)
-  400/300    0.000    0.000    0.092    0.000 manager.py:85(manager_method)
+  400/300    0.001    0.000    0.103    0.000 manager.py:85(manager_method)
         5    0.000    0.000    0.000    0.000 module_loading.py:19(import_string)
         5    0.000    0.000    0.000    0.000 module_loading.py:8(cached_import)
       400    0.001    0.000    0.003    0.000 operations.py:142(_quote_params_for_last_executed_query)
@@ -487,39 +487,39 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
        19    0.000    0.000    0.000    0.000 pathlib.py:560(root)
        19    0.000    0.000    0.000    0.000 pathlib.py:569(_tail)
        19    0.000    0.000    0.000    0.000 pathlib.py:731(parent)
-      624    0.001    0.000    0.016    0.000 pkgutil.py:130(_iter_file_finder_modules)
+      624    0.001    0.000    0.017    0.000 pkgutil.py:130(_iter_file_finder_modules)
        19    0.000    0.000    0.000    0.000 pkgutil.py:212(get_importer)
       624    0.000    0.000    0.017    0.000 pkgutil.py:96(iter_modules)
      2102    0.001    0.000    0.001    0.000 proxy.py:107(__getattribute__)
       700    0.000    0.000    0.001    0.000 proxy.py:122(__getattr__)
         1    0.000    0.000    0.000    0.000 proxy.py:300(__init__)
-        1    0.000    0.000    0.022    0.022 proxy.py:31(__init__)
+        1    0.000    0.000    0.028    0.028 proxy.py:31(__init__)
         1    0.000    0.000    0.000    0.000 proxy.py:355(__init__)
       600    0.000    0.000    0.001    0.000 query.py:1018(get_initial_alias)
       200    0.000    0.000    0.000    0.000 query.py:1032(count_active_tables)
       300    0.000    0.000    0.000    0.000 query.py:1040(join)
      1100    0.000    0.000    0.000    0.000 query.py:1090(join_parent_model)
       300    0.000    0.000    0.000    0.000 query.py:1202(resolve_lookup_value)
-      200    0.000    0.000    0.130    0.001 query.py:1217(_update)
+      200    0.000    0.000    0.147    0.001 query.py:1217(_update)
       300    0.000    0.000    0.001    0.000 query.py:1223(solve_lookup_type)
       300    0.000    0.000    0.000    0.000 query.py:1258(check_related_objects)
       600    0.000    0.000    0.000    0.000 query.py:1281(check_filterable)
       300    0.000    0.000    0.003    0.000 query.py:1294(build_lookup)
       300    0.002    0.000    0.009    0.000 query.py:1362(build_filter)
-      300    0.000    0.000    0.015    0.000 query.py:1430(filter)
-      300    0.000    0.000    0.015    0.000 query.py:1446(_filter_or_exclude)
-      300    0.000    0.000    0.013    0.000 query.py:1457(_filter_or_exclude_inplace)
-      300    0.000    0.000    0.012    0.000 query.py:1532(add_q)
-      300    0.001    0.000    0.011    0.000 query.py:1557(_add_q)
+      300    0.000    0.000    0.016    0.000 query.py:1430(filter)
+      300    0.000    0.000    0.016    0.000 query.py:1446(_filter_or_exclude)
+      300    0.000    0.000    0.014    0.000 query.py:1457(_filter_or_exclude_inplace)
+      300    0.000    0.000    0.013    0.000 query.py:1532(add_q)
+      300    0.001    0.000    0.012    0.000 query.py:1557(_add_q)
       600    0.001    0.000    0.001    0.000 query.py:1653(names_to_path)
       100    0.000    0.000    0.001    0.000 query.py:1653(order_by)
       200    0.000    0.000    0.002    0.000 query.py:1738(using)
       500    0.000    0.000    0.000    0.000 query.py:1769(db)
-      300    0.000    0.000    0.001    0.000 query.py:1769(setup_joins)
-      100    0.000    0.000    0.023    0.000 query.py:1780(_insert)
+      300    0.001    0.000    0.001    0.000 query.py:1769(setup_joins)
+      100    0.000    0.000    0.029    0.000 query.py:1780(_insert)
       600    0.000    0.000    0.004    0.000 query.py:1849(_chain)
       600    0.001    0.000    0.004    0.000 query.py:1860(_clone)
-      100    0.000    0.000    0.022    0.000 query.py:1879(_fetch_all)
+      100    0.000    0.000    0.025    0.000 query.py:1879(_fetch_all)
       300    0.000    0.000    0.000    0.000 query.py:1894(trim_joins)
       300    0.000    0.000    0.000    0.000 query.py:1958(_not_support_combined_queries)
       100    0.000    0.000    0.000    0.000 query.py:2075(set_limits)
@@ -532,7 +532,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
      2800    0.000    0.000    0.000    0.000 query.py:2485(extra_select)
       300    0.000    0.000    0.000    0.000 query.py:2615(__init__)
       100    0.000    0.000    0.000    0.000 query.py:2625(get_related_populators)
-      300    0.000    0.000    0.000    0.000 query.py:2636(add_votes)
+      300    0.000    0.000    0.001    0.000 query.py:2636(add_votes)
       300    0.000    0.000    0.001    0.000 query.py:2643(update_join_types)
       300    0.000    0.000    0.000    0.000 query.py:267(base_table)
      1000    0.000    0.000    0.001    0.000 query.py:294(__init__)
@@ -540,20 +540,20 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
      1300    0.000    0.000    0.000    0.000 query.py:305(get_meta)
      2600    0.000    0.000    0.000    0.000 query.py:310(query)
       800    0.002    0.000    0.004    0.000 query.py:314(clone)
-      800    0.001    0.000    0.004    0.000 query.py:359(chain)
-      100    0.000    0.000    0.022    0.000 query.py:379(__len__)
+      800    0.001    0.000    0.005    0.000 query.py:359(chain)
+      100    0.000    0.000    0.026    0.000 query.py:379(__len__)
       300    0.000    0.000    0.000    0.000 query.py:379(_get_col)
       100    0.000    0.000    0.000    0.000 query.py:47(__init__)
-      100    0.000    0.000    0.028    0.000 query.py:613(get)
-      100    0.000    0.000    0.026    0.000 query.py:651(create)
+      100    0.000    0.000    0.032    0.000 query.py:613(get)
+      100    0.000    0.000    0.033    0.000 query.py:651(create)
       100    0.000    0.000    0.000    0.000 query.py:796(get_select_mask)
       300    0.000    0.000    0.000    0.000 query.py:818(table_alias)
       300    0.000    0.000    0.000    0.000 query.py:845(ref_alias)
       100    0.000    0.000    0.000    0.000 query.py:849(unref_alias)
-      100    0.000    0.000    0.022    0.000 query.py:85(__iter__)
+      100    0.000    0.000    0.025    0.000 query.py:85(__iter__)
       300    0.000    0.000    0.000    0.000 query.py:853(promote_joins)
       600    0.000    0.000    0.000    0.000 query.py:890(demote_joins)
-      100    0.001    0.000    0.089    0.001 query.py:906(get_or_create)
+      100    0.001    0.000    0.100    0.001 query.py:906(get_or_create)
       100    0.000    0.000    0.000    0.000 query.py:909(reset_refcounts)
       100    0.000    0.000    0.000    0.000 query.py:981(_extract_model_params)
       300    0.000    0.000    0.000    0.000 query_utils.py:206(__get__)
@@ -562,14 +562,14 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       300    0.000    0.000    0.000    0.000 query_utils.py:223(get_instance_lookups)
       300    0.000    0.000    0.001    0.000 query_utils.py:232(get_lookup)
         2    0.000    0.000    0.000    0.000 query_utils.py:252(merge_dicts)
-      300    0.000    0.000    0.000    0.000 query_utils.py:48(__init__)
-     2739    0.001    0.000    0.003    0.000 random.py:242(_randbelow_with_getrandbits)
-      192    0.000    0.000    0.000    0.000 random.py:291(randrange)
-       92    0.000    0.000    0.000    0.000 random.py:332(randint)
-     2547    0.001    0.000    0.004    0.000 random.py:341(choice)
-      507    0.005    0.000    0.006    0.000 random.py:454(choices)
+      300    0.000    0.000    0.001    0.000 query_utils.py:48(__init__)
+     2759    0.001    0.000    0.003    0.000 random.py:242(_randbelow_with_getrandbits)
+      214    0.000    0.000    0.000    0.000 random.py:291(randrange)
+      114    0.000    0.000    0.000    0.000 random.py:332(randint)
+     2545    0.001    0.000    0.004    0.000 random.py:341(choice)
+      498    0.005    0.000    0.006    0.000 random.py:454(choices)
       200    0.000    0.000    0.000    0.000 random.py:494(uniform)
-     2283    0.001    0.000    0.002    0.000 random.py:889(getrandbits)
+     2268    0.001    0.000    0.002    0.000 random.py:889(getrandbits)
         1    0.000    0.000    0.000    0.000 regex_helper.py:342(_lazy_re_compile)
         1    0.000    0.000    0.000    0.000 regex_helper.py:345(_compile)
       200    0.000    0.000    0.000    0.000 subqueries.py:104(add_update_fields)
@@ -577,7 +577,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       100    0.000    0.000    0.000    0.000 subqueries.py:145(__init__)
       100    0.000    0.000    0.000    0.000 subqueries.py:155(insert_values)
       200    0.000    0.000    0.000    0.000 subqueries.py:57(_setup_query)
-      200    0.000    0.000    0.000    0.000 text.py:11(slugify)
+      200    0.000    0.000    0.001    0.000 text.py:11(slugify)
       400    0.000    0.000    0.000    0.000 timezone.py:246(is_aware)
       800    0.000    0.000    0.000    0.000 timezone.py:259(is_naive)
       400    0.000    0.000    0.001    0.000 timezone.py:296(make_naive)
@@ -585,7 +585,7 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       100    0.000    0.000    0.000    0.000 transaction.py:176(__init__)
       200    0.000    0.000    0.001    0.000 transaction.py:18(get_connection)
       100    0.000    0.000    0.002    0.000 transaction.py:182(__enter__)
-      100    0.000    0.000    0.030    0.000 transaction.py:224(__exit__)
+      100    0.000    0.000    0.032    0.000 transaction.py:224(__exit__)
       100    0.000    0.000    0.000    0.000 transaction.py:316(atomic)
      2200    0.000    0.000    0.000    0.000 tree.py:22(__init__)
       800    0.000    0.000    0.000    0.000 tree.py:28(create)
@@ -607,9 +607,9 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       400    0.000    0.000    0.000    0.000 tz.py:100(fromutc)
       200    0.000    0.000    0.000    0.000 tz.py:74(utcoffset)
       400    0.000    0.000    0.000    0.000 tz.py:77(dst)
-      500    0.001    0.000    0.130    0.000 utils.py:100(execute)
+      500    0.001    0.000    0.152    0.000 utils.py:100(execute)
       100    0.000    0.000    0.000    0.000 utils.py:105(<lambda>)
-     1000    0.001    0.000    0.005    0.000 utils.py:108(debug_sql)
+     1000    0.001    0.000    0.006    0.000 utils.py:108(debug_sql)
       200    0.000    0.000    0.000    0.000 utils.py:146(debug_transaction)
       500    0.000    0.000    0.000    0.000 utils.py:16(__init__)
         1    0.000    0.000    0.000    0.000 utils.py:204(routers)
@@ -620,11 +620,11 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       100    0.000    0.000    0.000    0.000 utils.py:33(__enter__)
       100    0.000    0.000    0.000    0.000 utils.py:36(__exit__)
         1    0.000    0.000    0.000    0.000 utils.py:59(__init__)
-      500    0.000    0.000    0.123    0.000 utils.py:66(execute)
+      500    0.000    0.000    0.145    0.000 utils.py:66(execute)
      1402    0.001    0.000    0.001    0.000 utils.py:67(__enter__)
      1402    0.000    0.000    0.000    0.000 utils.py:70(__exit__)
-      500    0.000    0.000    0.123    0.000 utils.py:76(_execute_with_wrappers)
-      500    0.001    0.000    0.123    0.000 utils.py:82(_execute)
+      500    0.000    0.000    0.144    0.000 utils.py:76(_execute_with_wrappers)
+      500    0.001    0.000    0.144    0.000 utils.py:82(_execute)
       200    0.000    0.000    0.000    0.000 utils.py:93(__call__)
       100    0.000    0.000    0.000    0.000 utils.py:94(sort_ordered_objects)
       200    0.000    0.000    0.001    0.000 utils.py:96(inner)
@@ -633,27 +633,27 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       800    0.000    0.000    0.001    0.000 where.py:209(clone)
   200/100    0.000    0.000    0.000    0.000 where.py:236(_contains_aggregate)
       200    0.000    0.000    0.000    0.000 where.py:239(<genexpr>)
-      100    0.000    0.000    0.000    0.000 where.py:242(contains_aggregate)
+      100    0.000    0.000    0.001    0.000 where.py:242(contains_aggregate)
   200/100    0.000    0.000    0.000    0.000 where.py:246(_contains_over_clause)
       200    0.000    0.000    0.000    0.000 where.py:249(<genexpr>)
       100    0.000    0.000    0.000    0.000 where.py:252(contains_over_clause)
       100    0.000    0.000    0.001    0.000 where.py:38(split_having_qualify)
-     2680    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x105a620e8}
+     2680    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x102f320e8}
      1000    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
      30/4    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
      2003    0.000    0.000    0.000    0.000 {built-in method _asyncio.get_running_loop}
-      507    0.000    0.000    0.000    0.000 {built-in method _bisect.bisect_right}
+      498    0.000    0.000    0.000    0.000 {built-in method _bisect.bisect_right}
       300    0.000    0.000    0.000    0.000 {built-in method _collections._count_elements}
       100    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha256}
-      100   11.758    0.118   11.758    0.118 {built-in method _hashlib.pbkdf2_hmac}
+      100   12.191    0.122   12.191    0.122 {built-in method _hashlib.pbkdf2_hmac}
        20    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
       120    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
        20    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
        20    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
       120    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
-       20    0.000    0.000    0.000    0.000 {built-in method _io.open_code}
-      576    0.000    0.000    0.000    0.000 {built-in method _operator.index}
-        1    0.000    0.000    0.000    0.000 {built-in method _sqlite3.connect}
+       20    0.003    0.000    0.003    0.000 {built-in method _io.open_code}
+      642    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        1    0.001    0.001    0.002    0.002 {built-in method _sqlite3.connect}
         5    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
       641    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISDIR}
        20    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
@@ -663,41 +663,41 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       100    0.000    0.000    0.000    0.000 {built-in method binascii.b2a_base64}
        25    0.000    0.000    0.001    0.000 {built-in method builtins.__build_class__}
       100    0.000    0.000    0.000    0.000 {built-in method builtins.all}
-1202/1000    0.000    0.000    0.001    0.000 {built-in method builtins.any}
+1202/1000    0.000    0.000    0.002    0.000 {built-in method builtins.any}
      2285    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
        25    0.000    0.000    0.000    0.000 {built-in method builtins.dir}
-     21/1    0.000    0.000   12.062   12.062 {built-in method builtins.exec}
-21908/15060    0.003    0.000    0.059    0.000 {built-in method builtins.getattr}
-    21033    0.002    0.000    0.002    0.000 {built-in method builtins.hasattr}
-    19081    0.002    0.000    0.002    0.000 {built-in method builtins.isinstance}
+     21/1    0.000    0.000   12.531   12.531 {built-in method builtins.exec}
+21899/15060    0.003    0.000    0.065    0.000 {built-in method builtins.getattr}
+    21013    0.002    0.000    0.002    0.000 {built-in method builtins.hasattr}
+    19050    0.002    0.000    0.002    0.000 {built-in method builtins.isinstance}
       600    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
       300    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
-18992/18332    0.001    0.000    0.023    0.000 {built-in method builtins.len}
+18952/18292    0.001    0.000    0.027    0.000 {built-in method builtins.len}
        40    0.000    0.000    0.000    0.000 {built-in method builtins.max}
        56    0.000    0.000    0.000    0.000 {built-in method builtins.min}
      3000    0.001    0.000    0.007    0.000 {built-in method builtins.next}
-     2129    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+     2083    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
      2126    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
       401    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
-     2343    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+     2328    0.000    0.000    0.000    0.000 {built-in method from_bytes}
       200    0.000    0.000    0.000    0.000 {built-in method from_iterable}
         5    0.000    0.000    0.000    0.000 {built-in method fromkeys}
        20    0.001    0.000    0.001    0.000 {built-in method marshal.loads}
       100    0.000    0.000    0.000    0.000 {built-in method math.ceil}
-      507    0.000    0.000    0.000    0.000 {built-in method math.isfinite}
+      498    0.000    0.000    0.000    0.000 {built-in method math.isfinite}
       100    0.000    0.000    0.000    0.000 {built-in method math.log2}
       400    0.000    0.000    0.000    0.000 {built-in method now}
      2027    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
-      657    0.010    0.000    0.010    0.000 {built-in method posix.listdir}
+      657    0.011    0.000    0.011    0.000 {built-in method posix.listdir}
       758    0.001    0.000    0.001    0.000 {built-in method posix.stat}
-     2283    0.001    0.000    0.001    0.000 {built-in method posix.urandom}
+     2268    0.001    0.000    0.001    0.000 {built-in method posix.urandom}
         1    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
       209    0.000    0.000    0.000    0.000 {built-in method sys.intern}
      1201    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
         1    0.000    0.000    0.000    0.000 {built-in method today}
       200    0.000    0.000    0.000    0.000 {built-in method unicodedata.normalize}
-      100    0.000    0.000    0.000    0.000 {function DictWrapper.__getitem__ at 0x1066d3240}
-      900    0.121    0.000    0.121    0.000 {function SQLiteCursorWrapper.execute at 0x107131f80}
+      100    0.000    0.000    0.000    0.000 {function DictWrapper.__getitem__ at 0x103ba3240}
+      900    0.142    0.000    0.142    0.000 {function SQLiteCursorWrapper.execute at 0x104601f80}
        20    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
        40    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
       600    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
@@ -707,9 +707,9 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
       600    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
     12021    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
      1000    0.001    0.000    0.001    0.000 {method 'astimezone' of 'datetime.datetime' objects}
-     2739    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+     2759    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
       800    0.000    0.000    0.000    0.000 {method 'close' of 'sqlite3.Cursor' objects}
-      100    0.028    0.000    0.028    0.000 {method 'commit' of 'sqlite3.Connection' objects}
+      100    0.030    0.000    0.030    0.000 {method 'commit' of 'sqlite3.Connection' objects}
         4    0.000    0.000    0.000    0.000 {method 'copy' of 'collections.OrderedDict' objects}
      7400    0.001    0.000    0.001    0.000 {method 'copy' of 'dict' objects}
       800    0.000    0.000    0.000    0.000 {method 'copy' of 'set' objects}
@@ -721,29 +721,29 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
       200    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
      6317    0.001    0.000    0.001    0.000 {method 'endswith' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 {method 'execute' of 'sqlite3.Connection' objects}
+        3    0.001    0.000    0.001    0.000 {method 'execute' of 'sqlite3.Connection' objects}
      2600    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
       100    0.000    0.000    0.000    0.000 {method 'fetchmany' of 'sqlite3.Cursor' objects}
       501    0.001    0.000    0.001    0.000 {method 'fetchone' of 'sqlite3.Cursor' objects}
        27    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
      4832    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
        10    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
-      860    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+      945    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
       400    0.000    0.000    0.000    0.000 {method 'groupdict' of 're.Match' objects}
-      307    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+      298    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
        25    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
        13    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
         2    0.000    0.000    0.000    0.000 {method 'isupper' of 'str' objects}
      4607    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
-3906/3806    0.001    0.000    0.008    0.000 {method 'join' of 'str' objects}
+3897/3797    0.002    0.000    0.008    0.000 {method 'join' of 'str' objects}
         2    0.000    0.000    0.000    0.000 {method 'keys' of 'collections.OrderedDict' objects}
      1281    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
       400    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
         3    0.000    0.000    0.000    0.000 {method 'mro' of 'type' objects}
      3125    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
      1140    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
-      707    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
-       20    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+      698    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+       20    0.002    0.000    0.002    0.000 {method 'read' of '_io.BufferedReader' objects}
         3    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
        20    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
       400    0.000    0.000    0.000    0.000 {method 'replace' of 'datetime.datetime' objects}
@@ -758,25 +758,25 @@ Generating using factory_boy (factories.factory_boy_django_auth_minimal.UserFact
      6616    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
       300    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
      2200    0.002    0.000    0.013    0.000 {method 'sub' of 're.Pattern' objects}
-      400    0.000    0.000    0.001    0.000 {method 'timetuple' of 'datetime.datetime' objects}
+      400    0.001    0.000    0.001    0.000 {method 'timetuple' of 'datetime.datetime' objects}
       400    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
         3    0.000    0.000    0.000    0.000 {method 'update' of 'collections.OrderedDict' objects}
      2012    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
       600    0.000    0.000    0.000    0.000 {method 'update' of 'set' objects}
      1200    0.000    0.000    0.000    0.000 {method 'utcoffset' of 'datetime.datetime' objects}
-      508    0.000    0.000    0.000    0.000 {method 'values' of 'collections.OrderedDict' objects}
+      499    0.000    0.000    0.000    0.000 {method 'values' of 'collections.OrderedDict' objects}
      1000    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
 
 
 ********************
 Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
-         135257 function calls (134834 primitive calls) in 11.699 seconds
+         135244 function calls (134821 primitive calls) in 12.090 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
       100    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
-        1    0.000    0.000   11.699   11.699 <string>:1(<module>)
+        1    0.000    0.000   12.090   12.090 <string>:1(<module>)
       200    0.000    0.000    0.000    0.000 __init__.py:108(return_None)
       300    0.000    0.000    0.000    0.000 __init__.py:1102(to_python)
       300    0.000    0.000    0.000    0.000 __init__.py:1118(get_prep_value)
@@ -793,7 +793,7 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       400    0.000    0.000    0.000    0.000 __init__.py:179(sub)
       100    0.000    0.000    0.000    0.000 __init__.py:1790(isEnabledFor)
       100    0.000    0.000    0.000    0.000 __init__.py:2792(get_internal_type)
-      800    0.000    0.000    0.000    0.000 __init__.py:280(_compile)
+      800    0.000    0.000    0.001    0.000 __init__.py:280(_compile)
       100    0.000    0.000    0.000    0.000 __init__.py:492(get_col)
       100    0.000    0.000    0.000    0.000 __init__.py:615(__eq__)
       100    0.000    0.000    0.000    0.000 __init__.py:688(get_pk_value_on_save)
@@ -839,14 +839,14 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
         3    0.000    0.000    0.000    0.000 _parser.py:969(parse)
         2    0.000    0.000    0.000    0.000 _parser.py:98(closegroup)
   200/100    0.000    0.000    0.001    0.000 asyncio.py:15(inner)
-      100    0.000    0.000    0.096    0.001 base.py:1056(_do_insert)
+      100    0.000    0.000    0.101    0.001 base.py:1056(_do_insert)
       100    0.000    0.000    0.000    0.000 base.py:1069(_prepare_related_fields_for_save)
       100    0.000    0.000    0.000    0.000 base.py:183(queries_logged)
       100    0.000    0.000    0.000    0.000 base.py:189(create_cursor)
       100    0.000    0.000    0.000    0.000 base.py:284(ensure_connection)
       100    0.000    0.000    0.000    0.000 base.py:293(_prepare_cursor)
       100    0.000    0.000    0.001    0.000 base.py:304(_cursor)
-      100    0.000    0.000    0.016    0.000 base.py:322(execute)
+      100    0.000    0.000    0.020    0.000 base.py:322(execute)
       100    0.000    0.000    0.001    0.000 base.py:327(cursor)
       100    0.000    0.000    0.001    0.000 base.py:341(convert_query)
       100    0.000    0.000    0.000    0.000 base.py:430(_base_manager)
@@ -858,13 +858,13 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       100    0.000    0.000    0.000    0.000 base.py:653(_get_pk_val)
       100    0.000    0.000    0.000    0.000 base.py:665(get_deferred_fields)
       100    0.000    0.000    0.000    0.000 base.py:686(make_debug_cursor)
-      100    0.000    0.000    0.098    0.001 base.py:767(save)
-      100    0.000    0.000    0.097    0.001 base.py:835(save_base)
+      100    0.000    0.000    0.102    0.001 base.py:767(save)
+      100    0.000    0.000    0.102    0.001 base.py:835(save_base)
       100    0.000    0.000    0.000    0.000 base.py:903(_save_parents)
-      100    0.000    0.000    0.097    0.001 base.py:938(_save_table)
+      100    0.000    0.000    0.101    0.001 base.py:938(_save_table)
       100    0.000    0.000    0.000    0.000 base64.py:51(b64encode)
-      100    0.000    0.000   11.586    0.116 base_user.py:107(set_password)
-      100    0.000    0.000    0.098    0.001 base_user.py:75(save)
+      100    0.000    0.000   11.972    0.120 base_user.py:107(set_password)
+      100    0.000    0.000    0.103    0.001 base_user.py:75(save)
       100    0.000    0.000    0.000    0.000 compiler.py:1483(get_converters)
      1000    0.000    0.000    0.001    0.000 compiler.py:1627(field_as_sql)
      1000    0.000    0.000    0.003    0.000 compiler.py:1659(prepare_value)
@@ -875,16 +875,16 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       200    0.000    0.000    0.001    0.000 compiler.py:1721(<genexpr>)
       100    0.001    0.000    0.007    0.000 compiler.py:1732(as_sql)
      1100    0.000    0.000    0.001    0.000 compiler.py:1742(<genexpr>)
-      100    0.000    0.000    0.094    0.001 compiler.py:1812(execute_sql)
+      100    0.001    0.000    0.099    0.001 compiler.py:1812(execute_sql)
       100    0.000    0.000    0.000    0.000 compiler.py:46(__init__)
-      100    0.000    0.000    0.000    0.000 connection.py:56(__getitem__)
+      100    0.000    0.000    0.001    0.000 connection.py:56(__getitem__)
       300    0.000    0.000    0.000    0.000 contextlib.py:104(__init__)
       300    0.000    0.000    0.000    0.000 contextlib.py:132(__enter__)
       300    0.000    0.000    0.002    0.000 contextlib.py:141(__exit__)
       300    0.000    0.000    0.000    0.000 contextlib.py:299(helper)
       100    0.000    0.000    0.004    0.000 crypto.py:51(get_random_string)
      2300    0.000    0.000    0.004    0.000 crypto.py:62(<genexpr>)
-      100    0.000    0.000   11.581    0.116 crypto.py:70(pbkdf2)
+      100    0.000    0.000   11.967    0.120 crypto.py:70(pbkdf2)
       400    0.000    0.000    0.000    0.000 dispatcher.py:152(send)
       200    0.000    0.000    0.000    0.000 encoding.py:90(force_bytes)
         6    0.000    0.000    0.000    0.000 enum.py:1129(__new__)
@@ -905,14 +905,14 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       200    0.000    0.000    0.002    0.000 fake.py:2279(date_time)
       600    0.000    0.000    0.004    0.000 fake.py:4353(__call__)
       100    0.000    0.000    0.002    0.000 fake.py:4457(execute)
-      100    0.000    0.000   11.586    0.116 fake.py:4467(execute)
+      100    0.000    0.000   11.972    0.120 fake.py:4467(execute)
       300    0.000    0.000    0.000    0.000 fake.py:4505(_run_hooks)
       100    0.000    0.000    0.000    0.000 fake.py:4510(_apply_traits)
       100    0.000    0.000    0.000    0.000 fake.py:4516(_apply_lazy_attributes)
-        1    0.000    0.000   11.699   11.699 fake.py:4631(create_batch)
-      100    0.000    0.000    0.098    0.001 fake.py:4650(save)
-      100    0.003    0.000   11.699    0.117 fake.py:4654(create)
-      100    0.000    0.000   11.586    0.116 fake_py_django_auth_minimal.py:14(set_password)
+        1    0.000    0.000   12.090   12.090 fake.py:4631(create_batch)
+      100    0.000    0.000    0.103    0.001 fake.py:4650(save)
+      100    0.003    0.000   12.090    0.121 fake.py:4654(create)
+      100    0.000    0.000   11.972    0.120 fake_py_django_auth_minimal.py:14(set_password)
       100    0.000    0.000    0.002    0.000 fake_py_django_auth_minimal.py:18(set_username)
       200    0.000    0.000    0.001    0.000 functional.py:239(wrapper)
       400    0.000    0.000    0.000    0.000 functional.py:241(<genexpr>)
@@ -921,16 +921,16 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       100    0.000    0.000    0.000    0.000 hashers.py:126(get_hasher)
       100    0.000    0.000    0.004    0.000 hashers.py:220(salt)
       100    0.000    0.000    0.000    0.000 hashers.py:236(_check_encode_args)
-      100    0.000    0.000   11.582    0.116 hashers.py:308(encode)
-      100    0.000    0.000   11.586    0.116 hashers.py:78(make_password)
+      100    0.000    0.000   11.967    0.120 hashers.py:308(encode)
+      100    0.000    0.000   11.972    0.120 hashers.py:78(make_password)
       100    0.000    0.000    0.000    0.000 local.py:116(__getattr__)
       200    0.000    0.000    0.000    0.000 local.py:81(_lock_storage)
       100    0.000    0.000    0.000    0.000 manager.py:150(get_queryset)
-      100    0.000    0.000    0.096    0.001 manager.py:85(manager_method)
+      100    0.000    0.000    0.101    0.001 manager.py:85(manager_method)
       100    0.000    0.000    0.001    0.000 operations.py:142(_quote_params_for_last_executed_query)
       100    0.000    0.000    0.001    0.000 operations.py:169(last_executed_query)
      1300    0.000    0.000    0.000    0.000 operations.py:187(quote_name)
-      100    0.000    0.000    0.068    0.001 operations.py:208(fetch_returned_insert_columns)
+      100    0.000    0.000    0.067    0.001 operations.py:208(fetch_returned_insert_columns)
       200    0.000    0.000    0.001    0.000 operations.py:260(adapt_datetimefield_value)
       100    0.000    0.000    0.000    0.000 operations.py:294(get_db_converters)
       100    0.000    0.000    0.000    0.000 operations.py:362(bulk_insert_sql)
@@ -945,7 +945,7 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       100    0.000    0.000    0.000    0.000 operations.py:774(insert_statement)
       100    0.000    0.000    0.000    0.000 operations.py:777(on_conflict_suffix_sql)
       100    0.000    0.000    0.000    0.000 password_validation.py:60(password_changed)
-      100    0.000    0.000    0.096    0.001 query.py:1780(_insert)
+      100    0.000    0.000    0.100    0.001 query.py:1780(_insert)
       200    0.000    0.000    0.000    0.000 query.py:231(__init__)
       100    0.000    0.000    0.000    0.000 query.py:294(__init__)
       100    0.000    0.000    0.001    0.000 query.py:296(get_compiler)
@@ -954,7 +954,7 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       200    0.000    0.000    0.000    0.000 random.py:291(randrange)
      2800    0.001    0.000    0.004    0.000 random.py:341(choice)
       100    0.000    0.000    0.001    0.000 random.py:454(choices)
-     2266    0.001    0.000    0.002    0.000 random.py:889(getrandbits)
+     2265    0.001    0.000    0.002    0.000 random.py:889(getrandbits)
       100    0.000    0.000    0.000    0.000 subqueries.py:145(__init__)
       100    0.000    0.000    0.000    0.000 subqueries.py:155(insert_values)
       200    0.000    0.000    0.001    0.000 text.py:487(slugify)
@@ -963,31 +963,31 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       200    0.000    0.000    0.000    0.000 timezone.py:296(make_naive)
       200    0.000    0.000    0.000    0.000 transaction.py:100(mark_for_rollback_on_error)
       200    0.000    0.000    0.000    0.000 tree.py:22(__init__)
-      100    0.000    0.000    0.018    0.000 utils.py:100(execute)
+      100    0.000    0.000    0.023    0.000 utils.py:100(execute)
       200    0.000    0.000    0.002    0.000 utils.py:108(debug_sql)
       100    0.000    0.000    0.000    0.000 utils.py:16(__init__)
       100    0.000    0.000    0.000    0.000 utils.py:218(_route_db)
       200    0.000    0.000    0.000    0.000 utils.py:22(__getattr__)
       100    0.000    0.000    0.000    0.000 utils.py:33(__enter__)
       100    0.000    0.000    0.000    0.000 utils.py:36(__exit__)
-      100    0.000    0.000    0.016    0.000 utils.py:66(execute)
+      100    0.000    0.000    0.021    0.000 utils.py:66(execute)
       300    0.000    0.000    0.000    0.000 utils.py:67(__enter__)
       300    0.000    0.000    0.000    0.000 utils.py:70(__exit__)
-      100    0.000    0.000    0.016    0.000 utils.py:76(_execute_with_wrappers)
-      100    0.000    0.000    0.016    0.000 utils.py:82(_execute)
+      100    0.000    0.000    0.021    0.000 utils.py:76(_execute_with_wrappers)
+      100    0.000    0.000    0.021    0.000 utils.py:82(_execute)
       100    0.000    0.000    0.000    0.000 utils.py:93(__call__)
-      100    0.000    0.000    0.068    0.001 utils.py:96(inner)
+      100    0.000    0.000    0.067    0.001 utils.py:96(inner)
       100    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
       300    0.000    0.000    0.000    0.000 {built-in method _asyncio.get_running_loop}
       100    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha256}
-      100   11.581    0.116   11.581    0.116 {built-in method _hashlib.pbkdf2_hmac}
+      100   11.966    0.120   11.966    0.120 {built-in method _hashlib.pbkdf2_hmac}
       200    0.000    0.000    0.000    0.000 {built-in method _operator.index}
         3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
       100    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
       100    0.000    0.000    0.000    0.000 {built-in method binascii.b2a_base64}
       200    0.000    0.000    0.000    0.000 {built-in method builtins.any}
-      300    0.001    0.000    0.001    0.000 {built-in method builtins.dir}
-        1    0.000    0.000   11.699   11.699 {built-in method builtins.exec}
+      300    0.002    0.000    0.002    0.000 {built-in method builtins.dir}
+        1    0.000    0.000   12.090   12.090 {built-in method builtins.exec}
 36400/36200    0.003    0.000    0.004    0.000 {built-in method builtins.getattr}
      4400    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
     11278    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
@@ -997,17 +997,17 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
       600    0.000    0.000    0.002    0.000 {built-in method builtins.next}
         7    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
      1300    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
-     2266    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+     2265    0.000    0.000    0.000    0.000 {built-in method from_bytes}
       100    0.000    0.000    0.000    0.000 {built-in method from_iterable}
         4    0.000    0.000    0.000    0.000 {built-in method fromkeys}
       100    0.000    0.000    0.000    0.000 {built-in method math.ceil}
      2000    0.000    0.000    0.000    0.000 {built-in method math.floor}
       100    0.000    0.000    0.000    0.000 {built-in method math.log2}
       400    0.000    0.000    0.000    0.000 {built-in method now}
-     2266    0.001    0.000    0.001    0.000 {built-in method posix.urandom}
+     2265    0.001    0.000    0.001    0.000 {built-in method posix.urandom}
       200    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
       200    0.000    0.000    0.000    0.000 {built-in method unicodedata.normalize}
-      200    0.015    0.000    0.015    0.000 {function SQLiteCursorWrapper.execute at 0x107131f80}
+      200    0.020    0.000    0.020    0.000 {function SQLiteCursorWrapper.execute at 0x104601f80}
       100    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
       100    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
       427    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
@@ -1020,10 +1020,10 @@ Generating using fake.py (factories.fake_py_django_auth_minimal.UserFactory):
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
       400    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
         2    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
-      200    0.068    0.000    0.068    0.000 {method 'fetchone' of 'sqlite3.Cursor' objects}
+      200    0.067    0.000    0.067    0.000 {method 'fetchone' of 'sqlite3.Cursor' objects}
        20    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
       207    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
-     1474    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+     1464    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
       400    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
         1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
       903    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}

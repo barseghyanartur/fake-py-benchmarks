@@ -30,14 +30,14 @@ class UserFactory(DjangoModelFactory):
     email = Faker("email")
     date_joined = Faker(
         "date_time_between",
-        start_date="-30m",
-        end_date="-20m",
+        start_date="-7d",
+        end_date="+0d",
         tzinfo=timezone.get_current_timezone(),
     )
     last_login = Faker(
         "date_time_between",
-        start_date="-30m",
-        end_date="-20m",
+        start_date="-7d",
+        end_date="+0d",
         tzinfo=timezone.get_current_timezone(),
     )
     is_superuser = False

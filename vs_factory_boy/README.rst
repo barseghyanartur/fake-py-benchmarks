@@ -32,7 +32,7 @@ Minimal factories
 ~~~~~~~~~~~~~~~~~
 Generation of 100 (Django) ``User`` records using identical factories:
 
-- `fake.py`_: 11.699 seconds
-- `factory_boy`_: 12.062 seconds
+- `fake.py`_: 12.090 seconds
+- `factory_boy`_: 12.530 seconds
 
 See `minimal factories results`_ for details.
