@@ -29,7 +29,7 @@ class UserFactory(DjangoModelFactory):
     .. code-block:: python
 
         # Create a user. Created user will automatically have his password
-        # set to "test1234" and will be added to the group "Test group".
+        # set to "test1234".
         user = UserFactory()
 
         # Create 5 users.
