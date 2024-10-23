@@ -11,3 +11,12 @@ Benchmarks
 ==========
 - `vs factory_boy`_
 - `vs Faker vs mimesis`_
+
+License
+=======
+MIT
+
+Author
+======
+
+Artur Barseghyan <artur.barseghyan@gmail.com>
